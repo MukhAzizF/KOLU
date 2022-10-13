@@ -1,0 +1,85 @@
+body {
+    background-color: orange;
+}
+.container{
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    left: 10%;
+    width: 80%;
+    min-height: 200px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 50px;
+}
+
+.navbar .kanan{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+/* ========================== */
+
+.konten{
+    display: flex;
+}
+
+.konten .kiri{
+    width: 50%;
+}
+
+.konten .kiri .card{
+    padding-left: 50px;
+}
+
+.konten .kiri .card .botom{
+    display: flex;
+}
+
+.konten .kiri .card .botom .kiri{
+    width: 70%;
+    height: 50px;
+    background-color: black;
+}
+
+.konten .kiri .card .botom .kanan{
+    width: 20%;
+    height: 50px;
+    background-color: orange;
+}
+
+.konten .kiri .card img{
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.konten .kanan{
+    width: 50%;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.container {
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.8);
+    padding: 10px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    margin-top: 87px;
+}
